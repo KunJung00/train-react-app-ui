@@ -1,5 +1,11 @@
+import LoginCp from "./components/login/LoginPage";
+
 function App() {
-  return <h1>Hello World!!!</h1>;
+  return (
+    <>
+      <LoginCp></LoginCp>
+    </>
+  );
 }
 
 export default App;
